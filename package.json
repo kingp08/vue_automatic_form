@@ -1,0 +1,41 @@
+{
+  "name": "vue-auto-form",
+  "description": "A vue2 component that helpers to easily create basic forms with automatic insert and update events, and automatic reactive validation.",
+  "version": "1.0.4",
+  "author": "wenzhixin2010@gmial.com",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "eslint": "eslint src --ext js,vue"
+  },
+  "dependencies": {
+    "flat": "^2.0.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "sprintf": "^0.1.5",
+    "vue": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-preset-es2015": "^6.13.2",
+    "bootstrap": "^3.3.7",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "element-ui": "^1.2.5",
+    "eslint": "^3.11.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-html": "^2.0.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "eslint-plugin-vue": "^2.0.1",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^9.8.0",
+    "webpack": "beta",
+    "webpack-dev-server": "beta"
+  }
+}
